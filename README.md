@@ -141,6 +141,7 @@ Use Ctrl-C to stop
 
 Your new extension version can be released using `gem-release` like this:
 
+
 ```console
 $ bundle exec gem bump -v VERSION --tag --push --remote upstream && gem release
 ```
